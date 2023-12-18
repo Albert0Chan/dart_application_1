@@ -43,7 +43,7 @@ bool funcEstaMadura(int dias){
   }
 }
 
-String toString(
+ String toString(
     {required String nome,
     required double peso,
     required diasDesdeColheita,
@@ -62,4 +62,4 @@ String toString(
       "A $nome pesa $peso gramas! Ela foi colhida há  $diasDesdeColheita dias e precisa de  $diasParaMadura dias para amadurecer, logo, a $nome ${maduraString}está madura!";
 
   return result;
-}
+} 
